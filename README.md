@@ -1,7 +1,7 @@
 # BlankfactorAutomation
 
 ## Project
-The **BlankfactorAutomation** project was created to demonstrate the automation testing skills of **Hernan Jose Malave Montero**, who is interested in joining Blankfactor as a QA Automation Engineer.  
+The **BlankfactorAutomation** project was created to demonstrate the automation testing skills of Hernan Jose Malave Montero, who is interested in joining Blankfactor as a QA Automation Engineer.  
 
 ## Characteristics
 This project has the following key features:  
@@ -45,43 +45,43 @@ requirements.txt
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/hmalave17/BlankfactorAutomation.git <br>
+git clone https://github.com/hmalave17/BlankfactorAutomation.git
 
 ### 2. Navigate to project root
-cd BlankfactorAutomation/BlankfactorAutomationPy (**make sure you are located in the root of the automation project**) <br>
+```bash
+cd BlankfactorAutomation/BlankfactorAutomationPy (**make sure you are located in the root of the automation project**)
 
 ### 3. Setup environment
+```bash
 python -m venv venv
 
 ### 4. Activate the environment
-- **Git Bash (Windows):**source venv/Scripts/activate
-- **Git Bash (macOS/Linux):**source venv/bin/activate
-- **powershell:**venv\Scripts\activate
+Git Bash (Windows): source venv/Scripts/activate
+Git Bash (macOS/Linux): source venv/bin/activate
+powershell: venv\Scripts\activate
 
 ### 5. run dependencies
 ```bash
 pip install -r requirements.txt
 
 ### 6. Run the tests
-Using .env configuration (default browser defined in .env file): <br>
+Using .env configuration (default browser defined in .env file):
+-Git Bash:behave
+-PowerShell (Windows): $env:BROWSER="firefox"; $env:HEADLESS="true"; behave
 
-- **Git Bash:**behave
-- **PowerShell (Windows):** $env:BROWSER="firefox"; $env:HEADLESS="true"; behave
-
-
-**Browser options**<br>
-- **chrome** runs with Chromium/Chrome (default)<br>
-- **edge** runs with Chromium/Edge<br>
-- **firefox** runs with Firefox<br>
-- **webkit** runs with WebKit (Safari engine)<br>
+**Browser options**
+-chrome runs with Chromium/Chrome (default)
+-edge runs with Chromium/Edge
+-firefox runs with Firefox
+-webkit runs with WebKit (Safari engine)
 
 **Reports:**
-- **After execution, HTML reports are generated under:<br>
-- **blankfactorautomation/reports/report.html
+-After execution, HTML reports are generated under:
+-blankfactorautomation/reports/report.html
 
-**Note:**
-- **HEADLESS=false** browser visible<br>
-- **HEADLESS=true** browser no visible
+**Note**:
+-HEADLESS=false browser visible
+-HEADLESS=true browser no visible
 
 
 
