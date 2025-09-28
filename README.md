@@ -53,9 +53,9 @@ cd BlankfactorAutomation/BlankfactorAutomationPy (make sure you are located in t
 python -m venv venv
 
 ### 4. Activate the environment
-Git Bash (Windows): source venv/Scripts/activate
-Git Bash (macOS/Linux): source venv/bin/activate
-powershell: venv\Scripts\activate
+Git Bash (Windows): source venv/Scripts/activate <br>
+Git Bash (macOS/Linux): source venv/bin/activate <br>
+powershell: venv\Scripts\activate <br>
 
 ### 5. run dependencies
 cd .. (make sure you are located in the root of the automation project)
@@ -64,7 +64,7 @@ cd .. (make sure you are located in the root of the automation project)
 pip install -r requirements.txt
 
 ### 7. Navigate to project root
-cd BlankfactorAutomation/BlankfactorAutomationPy (make sure you are located in the root of the BlankfactorAutomationPy folder)
+cd BlankfactorAutomationPy (make sure you are located in the root of the BlankfactorAutomationPy folder)
 
 ### 8. Run the tests
 -Git Bash:behave (run browser chromium by default)
