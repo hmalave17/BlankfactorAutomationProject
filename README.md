@@ -44,7 +44,7 @@ requirements.txt
 ## Execution
 
 ### 1. Clone the repository
-git clone https://github.com/hmalave17/BlankfactorAutomation.git
+git clone https://github.com/hmalave17/BlankfactorAutomationProject.git
 
 ### 2. Navigate to project root
 cd BlankfactorAutomation/BlankfactorAutomationPy (make sure you are located in the root of the BlankfactorAutomationPy folder)
