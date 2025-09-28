@@ -52,11 +52,17 @@ cd BlankfactorAutomation/BlankfactorAutomationPy (**make sure you are located in
 
 ### 3. Setup environment
 python -m venv venv
-source venv/bin/activate   (**this options is to macOS/Linux**)
-venv\Scripts\activate   (**this options is toWindows PowerShell**)   
+
+### 4. Activate the environment
+- **Git Bash (Windows):**source venv/Scripts/activate
+- **Git Bash (macOS/Linux):**source venv/bin/activate
+- **powershell:**venv\Scripts\activate
+
+### 5. run dependencies
+```bash
 pip install -r requirements.txt
 
-### 4. Run the tests
+### 6. Run the tests
 Using .env configuration (default browser defined in .env file): <br>
 
 - **Git Bash:**behave
