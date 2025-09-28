@@ -65,8 +65,7 @@ powershell: venv\Scripts\activate
 pip install -r requirements.txt
 
 ### 6. Run the tests
-Using .env configuration (default browser defined in .env file):
--Git Bash:behave
+-Git Bash:behave (run browser chromium by default)
 -PowerShell (Windows): $env:BROWSER="firefox"; $env:HEADLESS="true"; behave
 
 **Browser options**
