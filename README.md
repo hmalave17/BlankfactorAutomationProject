@@ -67,8 +67,8 @@ pip install -r requirements.txt
 cd BlankfactorAutomationPy (make sure you are located in the root of the BlankfactorAutomationPy folder)
 
 ### 8. Run the tests
--Git Bash:behave (run browser chromium by default)
--PowerShell (Windows): $env:BROWSER="firefox"; $env:HEADLESS="true"; behave
+-Git Bash:behave (run browser chromium by default) <br>
+-PowerShell (Windows): $env:BROWSER="firefox"; $env:HEADLESS="true"; behave <br>
 
 **Browser options**
 -chrome runs with Chromium/Chrome (default)
