@@ -44,15 +44,12 @@ requirements.txt
 ## Execution
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/hmalave17/BlankfactorAutomation.git
 
 ### 2. Navigate to project root
-```bash
-cd BlankfactorAutomation/BlankfactorAutomationPy (**make sure you are located in the root of the automation project**)
+cd BlankfactorAutomation/BlankfactorAutomationPy (make sure you are located in the root of the automation project)
 
 ### 3. Setup environment
-```bash
 python -m venv venv
 
 ### 4. Activate the environment
@@ -61,7 +58,6 @@ Git Bash (macOS/Linux): source venv/bin/activate
 powershell: venv\Scripts\activate
 
 ### 5. run dependencies
-```bash
 pip install -r requirements.txt
 
 ### 6. Run the tests
