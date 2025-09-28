@@ -60,29 +60,29 @@ powershell: venv\Scripts\activate <br>
 ### 5. run dependencies
 cd .. (make sure you are located in the root of the automation project)
 
-### 6. run dependencies
+### 6. run dependencies 
 pip install -r requirements.txt
 
-### 7. Navigate to project root
+### 7. Navigate to project root <br>
 cd BlankfactorAutomationPy (make sure you are located in the root of the BlankfactorAutomationPy folder)
 
-### 8. Run the tests
+### 8. Run the tests<br>
 -Git Bash:behave (run browser chromium by default) <br>
 -PowerShell (Windows): $env:BROWSER="firefox"; $env:HEADLESS="true"; behave <br>
 
-**Browser options**
--chrome runs with Chromium/Chrome (default)
--edge runs with Chromium/Edge
--firefox runs with Firefox
--webkit runs with WebKit (Safari engine)
+**Browser options**<br>
+-chrome runs with Chromium/Chrome (default)<br> 
+-edge runs with Chromium/Edge<br>
+-firefox runs with Firefox<br>
+-webkit runs with WebKit (Safari engine)<br>
 
-**Reports:**
--After execution, HTML reports are generated under:
--blankfactorautomation/reports/report.html
+**Reports:**<br>
+-After execution, HTML reports are generated under:<br>
+-blankfactorautomation/reports/report.html<br>
 
-**Note**:
--HEADLESS=false browser visible
--HEADLESS=true browser no visible
+**Note**:<br>
+-HEADLESS=false browser visible<br>
+-HEADLESS=true browser no visible<br>
 
 
 
